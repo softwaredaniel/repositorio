@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Requerimientos de Software</title>
+	
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css"   href="css/estilosMenu.css">
+	<link rel="stylesheet" type="text/css" href="css/loginUsuarios.css"> 
+	<link rel="stylesheet" type="text/css" href="css/loginAdmin.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="icon" type="image/png" href="imagenes/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+	
+	<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/alertifyjs/alertify.js"></script>
+</head>
+<body>
+	<header>
+		<input type="checkbox" id="btn-menu">
+			
+		<nav class="menu">
+			<a href="index.html">
+			<img class="logo" src="imagenes/logoalianza.jpg" height="48px" width="174px" style="float:left;">
+			</a>
+			<a href="index.html"> <p style="color: white;float: left;" class="titulo">REQUERIMIENTOS DE SOFTWARE <br>Alianza Diagnostica S.A</p>
+			</a>	
+			<ul>
+				<li><a href="">Generar</a></li>
+				<li><a href="loginAdmin.html">Administrador</a></li>
+			
+			</ul>		
+		</nav>
+	</header>
+	<div class="login_container">
+		<div class="login_top">
+			<img class="login_img" src="imagenes/login.png" height="155px" width="50px" " style="float: center;">	
+			<h2 class="login_title">Usuario</h2>		
+		</div>
+
+		<div class="login_form" >
+			
+			<input name="" type="text" placeholder="&#128100; username" id="usuario" >
+			<div style="text-align: center;">
+			<input class="btn_submit" type="submit" value="INGRESAR" id="ENTRAR" ></div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$('#ENTRAR').click(function(){
+			
+			if($('#usuario').val()==""){
+				alertify.alert("Debes agregar el usuario");
+				return false;
+			}else if($('#password').val()==""){
+				alertify.alert("Debes agregar el password");
+				return false;
+			}
+			cadena="usuario=" + $('#usuario').val() ;
+				
+
+					$.ajax({
+						type:"POST",
+						url:"validar.php",
+						data:cadena,
+						success:function(r){
+							if(r==1){
+			
+		
+								window.location="formato.php";
+							
+
+
+							}else{
+								alertify.alert("Usuario incorrecto");
+							}
+						}
+					});
+				});
+
+
+		
+		});
+</script>
+
+
+
+ 
+
+</body>
+
+
+</html>
+

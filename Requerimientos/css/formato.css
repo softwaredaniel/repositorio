@@ -1,0 +1,349 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #E8E8EC;
+}
+
+header{
+	width: 100%;
+	height: 65px;
+	background: #2c3e50;
+}
+
+#btn-menu{
+	display: none;
+}
+ 
+ .logo{
+ 	padding: 4px;
+ 	margin-left: 15px;
+ }
+
+.titulo { 
+	margin-top: 0px;
+	margin-left: 7px;
+ 	padding: 11px;
+ 	font-size: 18px;
+ 	font-family: 'Raleway', sans-serif;
+  }
+
+.menu ul {
+ 	margin: 0;
+ 	list-style: none;
+ 	padding: 0;
+ 	display: flex;
+ 	justify-content: flex-end;
+ }
+
+ .menu li{
+ 	border-right: 1px solid #fff;
+ }
+
+ .menu li a {
+ 	display: block;
+ 	padding: 24px 25px;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 15px;
+ 	font-family: 'Raleway', sans-serif;
+ }
+
+ .menu li:hover {
+ 	cursor: pointer;
+ 	background: rgba(0,0,0,0.3);
+ }
+
+
+
+
+.proceso {
+height: 25px;
+width: 174px;
+margin-left: 30px;
+border: 1px solid #2c3e50;
+border-radius: 6px ;
+}
+
+
+.tipFecha {
+	height: 23px;
+	width: 174px;
+	margin-left: 30px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}	
+
+.SOFTWARE {
+	width:720px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 30px;
+	margin-top: 20px;
+	border-radius: 6px;
+	}
+
+.DIRECCION {
+	width:607px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 22px;
+	margin-top: 20px;
+	border-radius: 6px;
+}
+
+.general {
+	margin-top: 13px;
+	width: 842px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+	padding: 25px 25px;
+	box-sizing: border-box;
+}
+
+.objeReque {
+	width: 838px;
+	height: 40px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}
+
+.alcanceReque {
+	width: 838px;
+	height: 40px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+} 
+
+.impacRequer {
+	width: 838px;
+	height: 40px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}
+
+.otrosProcesos {
+	width: 838px;
+	height: 40px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}
+
+.viabDesar {
+	width:494px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 30px;
+	margin-top: 6px;
+	border-radius: 6px;
+	}
+
+.tiempEntrega {
+	width:494px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 30px;
+	margin-top: 6px;
+	border-radius: 6px;
+	}
+
+.SoluReque {
+	width: 756px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+	}
+
+.comenDes {
+	width: 756px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+	}
+
+.persYProc {
+	width: 756px;
+	height:30px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+	}
+
+.VoBoDirecTec {
+	width: 756px;
+	height:30px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+	}
+
+.VoBoDirecProc {
+	width: 756px;
+	height:30px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+	}
+
+
+/* ESTILOS DE TEXTOS */
+
+.version {
+	margin-left: 730px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.wrapTipo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.wrapPriori {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+
+.objReq {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.alcancereq{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+.impacto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.otrosproc {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.tecnologia {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.solu {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.tecn {
+	margin-top: 18px;
+	width: 842px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+	padding: 10px 40px;
+	box-sizing: border-box;
+}
+
+.REVIS {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.REVIS1 {
+	width: 410px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+}
+
+.REVIS2 {
+	width: 410px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+}
+
+.REVIS3 {
+	width: 410px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+}
+
+.REVIS4 {
+	width: 410px;
+	height:21px;
+	border: 1px solid #2c3e50;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 6px;
+}
+
+.tipFechaRev1 {
+	height: 23px;
+	width: 125px;
+	margin-left: 5px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}
+
+.tipFechaRev2 {
+	height: 23px;
+	width: 125px;
+	margin-left: 5px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}	
+
+.tipFechaRev3 {
+	height: 23px;
+	width: 125px;
+	margin-left: 5px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}	
+
+.tipFechaRev4 {
+	height: 23px;
+	width: 125px;
+	margin-left: 5px;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
+}	
+
+.enviar {
+	height: 2.5rem;
+	border:none;
+	border-radius: 4px;
+	background-color: #2c3e50;
+	color: white;
+	padding: 10px;
+	margin: 15px 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+.enviar:hover {
+	background-color: #161f28;
+	cursor: pointer;
+}
+.centrar{
+	text-align: center;
+	
+}
